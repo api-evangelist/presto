@@ -1,9 +1,31 @@
 aid: presto
 name: Presto
-description: Presto is a company surfaced as a portfolio company of union-square-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Presto Charging (Presto) is an electric-vehicle charging platform that
+  aggregates access to 180,000+ public chargers across 20+ North American
+  networks — including EVgo, ChargePoint, Blink, BP Pulse, and Flo — behind a
+  single mobile app, payment method, and account. For drivers it offers price
+  comparison, real-time charger availability, and a unified charging experience
+  on iOS and Android. For fleets and enterprises it delivers charge management,
+  granular usage data, and white-label products so operators can "manage
+  charging like they manage fuel." For charging networks it drives utilization
+  and station profitability. Presto exposes OCPI-compliant, mobile-first APIs
+  and SDKs so fleet-solution and mobility partners can embed public charging —
+  including Plug and Charge and Autocharge — under their own brand. Backed by
+  Union Square Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/presto/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/64c2545f1c07c2ceb39fa167/64d49910a80bf956071d9837_icon_256.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,9 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- EV Charging
+- Electric Vehicles
+- Mobility
+- Charging Networks
+- Fleet Management
+- OCPI
+- Payments
+- White Label
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +54,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.prestocharging.com
+- type: Blog
+  url: https://www.prestocharging.com/newsroom
+- type: PrivacyPolicy
+  url: https://www.prestocharging.com/privacy-policy
+- type: TermsOfService
+  url: https://www.prestocharging.com/terms-of-service
+- type: LinkedIn
+  url: https://www.linkedin.com/company/prestocharging/
+- type: DomainSecurity
+  url: security/presto-domain-security.yml
+- type: WellKnown
+  url: well-known/presto-well-known.yml
+- type: Conformance
+  url: conformance/presto-conformance.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

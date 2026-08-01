@@ -1,0 +1,24 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.prestocharging.com/enterprises
+standards:
+- id: ocpi
+  name: Open Charge Point Interface (OCPI)
+  conforms: true
+  evidence: >-
+    Presto's enterprise/partner page states its integrations are
+    "OCPI-compliant" — the EV-roaming interoperability standard for exchanging
+    location, tariff, session, and CDR data between charge-point operators and
+    e-mobility service providers.
+- id: iso15118-plug-and-charge
+  name: ISO 15118 Plug and Charge / Autocharge
+  conforms: true
+  evidence: >-
+    Enterprise page advertises "Plug and Charge and Autocharge functionality on
+    eligible networks" for fleet-solution and mobility partners.
+- id: oauth2
+  conforms: false
+  evidence: no public OpenAPI or auth documentation available to confirm
+notes: >-
+  Presto publishes no public OpenAPI, so standards conformance is asserted only
+  from documented product claims, not derived from a machine-readable spec.
